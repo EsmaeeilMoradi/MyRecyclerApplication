@@ -4,6 +4,6 @@ enum class EmployeeRole {
     HumanResources, Security, Technology
 }
 
-enum class CarModel {
-    BMW, Mercedes, VW, Ford, Doge, Fit
+enum class EmployeeGender {
+    Female,Male,Unknown
 }

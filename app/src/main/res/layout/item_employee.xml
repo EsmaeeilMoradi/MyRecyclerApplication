@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <ImageView
-        android:id="@+id/photo"
+        android:id="@+id/item_employee_photo"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:contentDescription="Photo"
@@ -22,7 +22,7 @@
         android:text="Employee Name"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        app:layout_constraintStart_toEndOf="@+id/photo"
+        app:layout_constraintStart_toEndOf="@+id/item_employee_photo"
         app:layout_constraintTop_toTopOf="parent"/>
 
     <TextView
@@ -46,7 +46,7 @@
         app:layout_constraintTop_toBottomOf="@+id/item_employee_role"
         />
     <TextView
-        android:id="@+id/item_employee_car"
+        android:id="@+id/item_employee_gender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="12sp"
